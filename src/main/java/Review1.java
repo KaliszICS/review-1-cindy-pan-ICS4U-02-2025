@@ -12,8 +12,9 @@ public class Review1 {
 		// Output the quotient (rounded down) and the remainder on separate lines.
 		int numNine = 9;
 		int numFive = 5;
-		System.out.println (1%numFive);
-		System.out.println (13%numNine);
+		System.out.println (numNine/numFive);
+		System.out.println (numNine%numFive);
+		// i could've probably wrote it as 10%9 and 9%5 whoops
 	}
 
 	public static void q3() {
